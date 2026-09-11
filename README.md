@@ -2,7 +2,7 @@
 
 A two-pass assembler and a fetch-decode-execute emulator for a subset of the AArch64 instruction set, written from scratch in C17 as a group project at Imperial College London.
 
-The source stays private for academic integrity reasons, so this page is a description of how it works and how it was built. If you would like to see the code, the contact line at the end is there for that.
+The source stays private for academic integrity reasons, so this page is a description of how it works and how it was built.
 
 - `emulate` runs a raw binary on a simulated 64-bit ARM machine and prints the final registers, flags and non-zero memory.
 - `assemble` turns AArch64 assembly source into the little-endian machine code that `emulate` (or a real Raspberry Pi) will run.
